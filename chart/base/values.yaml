@@ -10,7 +10,7 @@ image:
   repository: replace
   tag: replace
   pullPolicy: IfNotPresent
-  port: 9080
+  port: 3000
 
 nameOverride: ""
 fullnameOverride: ""
@@ -45,6 +45,6 @@ vcsInfo:
 
 partOf: ""
 
-connectsTo: ""
+connectsTo: inventory-service-ms
 
 runtime: nodejs
